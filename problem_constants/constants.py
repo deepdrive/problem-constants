@@ -33,6 +33,7 @@ BOTLEAGUE_LIAISON_HOST = os.environ.get('BOTLEAGUE_LIAISON_HOST',
                                         default='https://liaison.botleague.io')
 
 JOB_STATUS_TO_START = 'to_start'
+JOB_STATUS_ASSIGNED = 'assigned'
 JOB_STATUS_RUNNING = 'running'
 JOB_STATUS_FINISHED = 'finished'
 

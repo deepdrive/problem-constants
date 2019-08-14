@@ -32,10 +32,11 @@ BOTLEAGUE_RESULTS_FILEPATH = f'{BOTLEAGUE_RESULTS_DIR}/results.json'
 BOTLEAGUE_LIAISON_HOST = os.environ.get('BOTLEAGUE_LIAISON_HOST',
                                         default='https://liaison.botleague.io')
 
-JOB_STATUS_TO_START = 'to_start'
+JOB_STATUS_CREATED = 'created'
 JOB_STATUS_ASSIGNED = 'assigned'
 JOB_STATUS_RUNNING = 'running'
 JOB_STATUS_FINISHED = 'finished'
+JOB_STATUS_TIMED_OUT = 'timed_out'
 
 INSTANCE_STATUS_AVAILABLE = 'available'
 INSTANCE_STATUS_USED = 'used'
@@ -46,6 +47,6 @@ METADATA_URL = 'http://metadata.google.internal/computeMetadata/v1/instance'
 
 HOST = os.environ.get('PROBLEM_ENDPOINT_HOST',
                       default='https://sim.deepdrive.io')
-RESULTS_CALLBACK = f'{HOST}/results'
+RESULTS_CALLBACK = f'{BOTLEAGUE_LIAISON_HOST}/results'
 SUPPORTED_PROBLEMS = ['domain_randomization']
 ROOT = os.path.dirname(os.path.realpath(__file__))

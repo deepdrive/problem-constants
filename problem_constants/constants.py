@@ -21,6 +21,7 @@ CONTAINER_RUN_OPTIONS = dict(runtime='nvidia', network='host')
 # Needs to be divisible by 2 as we start a problem and bot instance for each
 # eval
 MAX_EVAL_INSTANCES = 6
+MAX_EVAL_SECONDS_DEFAULT = 5 * 60
 
 # This should be public for submitters to see logs
 BOTLEAGUE_LOG_BUCKET = 'deepdriveio'

@@ -14,6 +14,7 @@ STACKDRIVER_LOG_NAME = 'deepdrive-problem-endpoint'
 INSTANCE_EVAL_LABEL = 'deepdrive-eval'
 EVAL_INSTANCES_COLLECTION_NAME = 'deepdrive_eval_instances'
 EVAL_JOBS_COLLECTION_NAME = 'deepdrive_eval_jobs'
+EVAL_CONFIG_COLLECTION_NAME = 'deepdrive_eval_config'
 EVAL_LOOP_ID = 'deepdrive_eval_loop'
 
 CONTAINER_RUN_OPTIONS = dict(runtime='nvidia', network='host')

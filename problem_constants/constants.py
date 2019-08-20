@@ -52,6 +52,11 @@ METADATA_URL = 'http://metadata.google.internal/computeMetadata/v1/instance'
 
 HOST = os.environ.get('PROBLEM_ENDPOINT_HOST',
                       default='https://sim.deepdrive.io')
-RESULTS_CALLBACK = f'{BOTLEAGUE_LIAISON_HOST}/results'
 SUPPORTED_PROBLEMS = ['domain_randomization']
+
 ROOT = os.path.dirname(os.path.realpath(__file__))
+
+
+def get_results_callback():
+    # BOTLEAGUE_LIAISON_HOST can change dynamically on problem-endpoint
+    return f'{BOTLEAGUE_LIAISON_HOST}/results'

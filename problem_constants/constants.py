@@ -35,10 +35,13 @@ BOTLEAGUE_LIAISON_HOST = os.environ.get('BOTLEAGUE_LIAISON_HOST',
                                         default='https://liaison.botleague.io')
 
 JOB_STATUS_CREATED = 'created'
+JOB_STATUS_CONFIRMED = 'confirmed'
 JOB_STATUS_ASSIGNED = 'assigned'
 JOB_STATUS_RUNNING = 'running'
 JOB_STATUS_FINISHED = 'finished'
 JOB_STATUS_TIMED_OUT = 'timed_out'
+JOB_STATUS_DENIED_CONFIRMATION = 'denied_confirmation'
+JOB_STATUS_UNSUPPORTED_PROBLEM = 'unsupported_problem'
 
 INSTANCE_STATUS_AVAILABLE = 'available'
 INSTANCE_STATUS_USED = 'used'

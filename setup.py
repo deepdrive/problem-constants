@@ -17,7 +17,7 @@ with open(abspath(join(dirname(__file__), 'README.md')), 'rb') as readme_file:
 
 setup(
     name='problem-constants',
-    version='0.0.1',
+    version='0.0.2',
     description='Constants shared between problem-endpoint, '
                 'problem-coordinator, and problem-worker repos for Deepdrive\'s'
                 'Botleague integration',

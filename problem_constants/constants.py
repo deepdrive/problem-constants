@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import os
 
 ###############################################################
@@ -54,9 +56,5 @@ HOST = os.environ.get('PROBLEM_ENDPOINT_HOST',
                       default='https://sim.deepdrive.io')
 SUPPORTED_PROBLEMS = ['domain_randomization']
 
-ROOT = os.path.dirname(os.path.realpath(__file__))
-
-
-def get_results_callback():
-    # BOTLEAGUE_LIAISON_HOST can change dynamically on problem-endpoint
-    return f'{BOTLEAGUE_LIAISON_HOST}/results'
+DIR_DATE_FORMAT = '%Y-%m-%d_%I-%M-%S%p'
+DATE_STR = datetime.utcnow().strftime(DIR_DATE_FORMAT)

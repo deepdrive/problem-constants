@@ -61,3 +61,4 @@ SUPPORTED_PROBLEMS = ['domain_randomization']
 
 DIR_DATE_FORMAT = '%Y-%m-%d_%I-%M-%S%p'
 DATE_STR = datetime.utcnow().strftime(DIR_DATE_FORMAT)
+LOCAL_INSTANCE_ID = 'asdf'

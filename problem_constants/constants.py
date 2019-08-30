@@ -21,9 +21,9 @@ JOB_LOOP_ID = 'deepdrive_job_loop'
 
 CONTAINER_RUN_OPTIONS = dict(runtime='nvidia', network='host')
 
-# Needs to be divisible by 2 as we start a problem and bot instance for each
-# eval
-MAX_WORKER_INSTANCES = 6
+# Eventually needs to be divisible by 2 as we start a problem and bot
+# instance for each eval. Now they're on the same instance.
+MAX_WORKER_INSTANCES = 1
 MAX_EVAL_SECONDS_DEFAULT = 5 * 60
 
 # This should be public for submitters to see logs

@@ -35,6 +35,6 @@ setup(
     license='MIT',
     packages=['problem_constants'],
     zip_safe=True,
-    python_requires='>=3.7',
+    python_requires='>=3.6',
     install_requires=get_requires()
 )

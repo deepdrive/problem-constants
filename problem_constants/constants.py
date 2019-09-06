@@ -12,7 +12,6 @@ GCP_ZONE = GCP_REGION + '-b'
 GCP_PROJECT = os.environ.get('GOOGLE_CLOUD_PROJECT') or \
               os.environ.get('GCP_PROJECT') or 'silken-impulse-217423'
 
-STACKDRIVER_LOG_NAME = 'deepdrive-problem-endpoint'
 WORKER_INSTANCE_LABEL = 'deepdrive-worker'
 WORKER_INSTANCES_COLLECTION_NAME = 'deepdrive_worker_instances'
 JOBS_COLLECTION_NAME = 'deepdrive_jobs'

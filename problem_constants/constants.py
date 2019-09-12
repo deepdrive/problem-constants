@@ -39,7 +39,6 @@ JOB_TYPE_EVAL = 'eval'
 JOB_TYPE_SIM_BUILD = 'sim-build'
 
 JOB_STATUS_CREATED = 'created'
-JOB_STATUS_CONFIRMED = 'confirmed'
 JOB_STATUS_ASSIGNED = 'assigned'
 JOB_STATUS_RUNNING = 'running'
 JOB_STATUS_FINISHED = 'finished'

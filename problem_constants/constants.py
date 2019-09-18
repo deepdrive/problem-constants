@@ -28,7 +28,7 @@ MAX_EVAL_SECONDS_DEFAULT = 5 * 60
 # This should be public for submitters to see logs
 BOTLEAGUE_LOG_BUCKET = 'deepdriveio'
 
-BOTLEAGUE_LOG_DIR = 'botleague_eval_logs'
+BOTLEAGUE_LOG_DIR = 'deepdrive_botleague_logs'
 BOTLEAGUE_RESULTS_DIR = '/mnt/botleague_results'
 BOTLEAGUE_INNER_RESULTS_DIR_NAME = 'latest'
 BOTLEAGUE_RESULTS_FILEPATH = f'{BOTLEAGUE_RESULTS_DIR}/results.json'

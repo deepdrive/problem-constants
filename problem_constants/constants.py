@@ -57,6 +57,6 @@ HOST = os.environ.get('PROBLEM_ENDPOINT_HOST',
                       default='https://sim.deepdrive.io')
 SUPPORTED_PROBLEMS = ['domain_randomization']
 
-DIR_DATE_FORMAT = '%Y-%m-%d_%I-%M-%S%p'
+DIR_DATE_FORMAT = '%Y-%m-%d_%H-%M-%S'
 DATE_STR = datetime.utcnow().strftime(DIR_DATE_FORMAT)
 LOCAL_INSTANCE_ID = 'asdf'

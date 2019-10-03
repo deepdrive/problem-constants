@@ -37,6 +37,7 @@ BOTLEAGUE_LIAISON_HOST = os.environ.get('BOTLEAGUE_LIAISON_HOST',
 
 JOB_TYPE_EVAL = 'eval'
 JOB_TYPE_SIM_BUILD = 'sim-build'
+JOB_TYPE_DEEPDRIVE_BUILD = 'deepdrive-build'
 
 JOB_STATUS_CREATED = 'created'
 JOB_STATUS_ASSIGNED = 'assigned'

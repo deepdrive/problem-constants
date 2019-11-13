@@ -58,7 +58,7 @@ METADATA_URL = 'http://metadata.google.internal/computeMetadata/v1/instance'
 
 HOST = os.environ.get('PROBLEM_ENDPOINT_HOST',
                       default='https://sim.deepdrive.io')
-SUPPORTED_PROBLEMS = ['domain_randomization']
+SUPPORTED_PROBLEMS = ['domain_randomization', 'unprotected_left']
 
 DIR_DATE_FORMAT = '%Y-%m-%d_%H-%M-%S'
 DATE_STR = datetime.utcnow().strftime(DIR_DATE_FORMAT)
